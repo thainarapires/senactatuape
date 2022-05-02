@@ -1,1 +1,4 @@
-  Criando um diretório de arquivo no Github
+02/05/2022
+Criando um diretório teste de arquivo no Github e editando
+Ver histórico do arquivo criado no Github
+Criando um diretório com um arquivo txt de teste.
