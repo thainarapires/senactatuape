@@ -3,6 +3,9 @@ Testar continuidade do cabo de força (teste de diodo). OBS: Fase c/fase = 0 Fas
 Testar a resistência do cabo de força (teste 200ohms). OBS: Fase c/ fase = 0.2,  neutro c/ neutro = 0.2  terra c/ terra = 0.3
 Testar tensões elétricas no cabo (corrente alternada). OBS: Fase + neutro= 118.3, fase + terra= 119.5 , terra + neutro= 0.4
 Testar a Fonte de alimentação com o testador de fonte. OBS: Anotar valores, cabo ligado na tomada.
+-12v= 12.0       +12v= 12.0    5vsb 5.0    PG 260ms   5v= 4.9    +12v1= 12.0   +3.3= 3.2   
 Montar o circuito na protoboard, circuito de 12v (cabo amarelo 12v, + preto0v/com/terra) Primeira trilha
 Circuito de 5V (Cabo vermelho 5v + preto 0v/com/terra) segunda trilha
-Circuitto de 7v (cabo amarelo 12v + vermelho 5v) Terceira trilha
+Circuito de 7v (cabo amarelo 12v + vermelho 5v) Terceira trilha
+Montar o circuito com 2 multimetros, no 1° multimetro testar tensão elétrica 20v CC/DC) Segundo multimetro: testar corrente elétrica (10a) OBS: MUDAR O CABO DO 
+MULTIMETRO  CORRENTE ELÉTRICA
