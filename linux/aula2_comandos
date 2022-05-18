@@ -1,0 +1,20 @@
+terminal: tab, ctrl+l = limpar 
+i upd: 
+@> adicionar 
+$: usuário comum
+sudo
+sudo -i:
+#> sustenido
+ctrl+d= sair do root (exit)
+
+att: sudo apt upgrade  /////////att software
+sudo apt update ///////.att apt
+sudo apt full-upgrade //////all software
+sudo apt dist-upgrade ///att SO (kernel)
+sudo apt autoremove /////remove softwares desnecessários - limpa o cash
+sudo apt autoclean //// limpa o sistema (software)
+sudo reboot
+sudo apt install ///////instalar apt
+sudo apt install psensor 
+sudo apt install p7zip-full p7zip-rar guvcview cheese (cam apt)
+sudo apt install kazam (gravar tela)
