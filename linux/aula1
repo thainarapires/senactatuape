@@ -1,0 +1,39 @@
+1991 - Linux; Slackware
+1992 - Debian; Red hat
+2004 - Ubuntu
+2006 - Linux Mint
+Debian -> Ubuntu > Mint
+Pacote: .deb (extensão para instalar pacote no Mint)
+Baixar os navegadores Chrome e Edge
+.deb GDEV (ambiente gráfico)
+Gerenciador de app  > Ttf-mscorefonts- installer > fontes do windows
+ Não baixar: snap, flathub, nao add ppa, *.tar.gz e Bash (terminal)
+
+Instalação dos Navegadores (GDEB-GTK)
+	a- Google Chrome
+  b- Microsoft Edge
+	c - Opera
+
+#2 Parte 
+Instalação do suporte ao TTF (TrueType Fonts)
+	Gerenciador de Aplicativo (Pesquisar)
+
+	a - Microsoft TrueType Core Fonts (Gerenciador de Aplicativo)
+	b - WPS Office for Linux (Pacote DEB) 
+	c - FreeOffice for Linux (Pacote DEB) 
+	d - OnlyOffice Desktop for Linux (AppImagem) <-- PESQUISAR O QUE É APPIMAGEM 
+  e - Microsoft Teams for Linux (Pacote DEB)
+	f - Skype for Linux (Pacote DEB)
+	g - KolourPaint (Gerenciador de Aplicativo)
+
+ Instalação dos Editores de Texto para Desenvolvimento
+	 a - Visual Studio Code for Linux (Pacote DEB) <-- VAMOS TRABALHAR BASTANTE COM ELE
+	 b - NotepadQQ for Linux (Gerenciador de Aplicativo)
+	 c - Atom for Linux (Pacote DEB)
+	 d - Sublime for Linux (Pacote DEB)
+	 
+ Instalação de Reprodutores de Música Editor de Áudio e Vídeo
+a - VLC VideoOnLan for Linux (Gerenciador de Aplicativo)
+b - Audacity (Gerenciador de Aplicativo)
+c - Kdenlive (AppImagem) 
+	
