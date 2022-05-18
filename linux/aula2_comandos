@@ -18,3 +18,4 @@ sudo apt install ///////instalar apt
 sudo apt install psensor 
 sudo apt install p7zip-full p7zip-rar guvcview cheese (cam apt)
 sudo apt install kazam (gravar tela)
+sudo init 0 (desliga o linux)
