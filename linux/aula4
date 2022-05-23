@@ -1,0 +1,13 @@
+Configurar VSCode
+Clonar github no linux: git clone "https://github.com/thainarapires/devops" 
+Ctrl+K+O= abre o gerenciador de arquivos no VSCODE
+Ctrl+J= abre o terminal no VSCode
+git pull = atualiza o repositório clonado do github ou (só atualiza o repositório local)
+ctrl+s= salva projeto do vscode
+git config --global user.name (mudar de commint)
+git config --global user.email (usuário de acesso)
+git config --list (todas as config)
+git status (mostra arquivos que foram modificados)
+git add . =  adicionar mudanças no diretório e aplicar
+git commit -m "atualizacao"   (comitar/confirmar mudanças)
+git push (pede para fazer login)
