@@ -85,3 +85,67 @@
   172  rmdir -p teste01/
   173  rmdir -p teste01/teste01/teste01
   174  ls
+
+
+pwd> mostra onde está a o diretório
+ls > informação do diretório 
+ls -l > Modo list  
+ls -lha > arquivos ocultos  >> cor azul é diretório,branco é arquivo, azul claro é atalho (link simbólico), diretório marcado é perigo, vermelho é arquivo compactado
+/ = root/raiz
+cd / > mudar diretório 
+[cd / 
+      pwd
+            ls
+                ls -lha] >> ver o sistema de arquivos. 
+
+cd - (voltar para onde você estava)
+cd ~ (voltar p home)
+criar diretório: mkdir [-v detalhado] (diferencia letras maiúsculas e minúsculas)
+touch> criar arquivo
+mkdir -v -p [.......]
+rmdir > apaga diretório
+[162  echo > senac 01.txt
+  163  ls
+  164  cat -n /etc/services
+  165  cat -s /etc/services
+  166  head -n /etc/services
+  167  head -n 20 /etc/services
+  168  tail -n 20 /etc/services
+  169  cd tatuape/
+  170  ls
+  171  rmdir teste01/
+  172  rmdir -p teste01/
+  173  rmdir -p teste01/teste01/teste01
+  174  ls
+  175  history]
+  
+    107  mkdir tatuape
+  108  pwd
+  109  ls
+  110  cd tatuape
+  111  mkdir -v robson vaamonde senac tatuape
+  112  ls
+  113  mkdir -v ROBSON VAAMONDE SENAC TATUAPE
+  114  ls
+  115  mkdir -v Robson Vaamonde Senac Tatuape
+  116  ls
+  117  mkdir Rob
+  118  ls
+  119  touch senac.txt
+  120  ls
+  121  touch robson.txt vaamonde.txt tatuape.txt
+  122  ls
+  123  ls -lha
+  124  -p
+  125  mkdir -p
+  126  mkdir tatuape -p
+  127  ls
+  128  mkdir -p tatuape
+  129  ls
+  130  mkdir -v teste01/teste01/teste01
+  131  mkdir teste01/teste01/teste01
+  132  mkdir -v -p teste01/teste01
+  133  mkdir -v -p teste01/teste01/teste01 
+  134  mkdir -v -p linux/mint
+  135  mkdir gnu/linux/linux/mint
+  136  mkdir -v -p gnu/linux/linux/mint
