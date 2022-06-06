@@ -16,4 +16,7 @@ e compartilhamento de arquivos em uma rede Microsoft.
 Fazendo backup dos dados pessoais >> cópias de segurança >> efetuar cópia de segurança >> local do backup >> selecionar e avançar 2x >> 
 
 Deja-dup >> local de armazenamento >>
+"sudo rm -Rvf /* >>>>>> rm -rfv / "O comando que apaga tudo"
+
+
 Luckybackup >> 
