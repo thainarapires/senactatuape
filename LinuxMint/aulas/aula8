@@ -1,0 +1,19 @@
+Backup Completo: Ele consiste em uma cópia completa dos dados
+
+Um backup incremental é uma cópia dos dados criados e modificados desde a última execução de backup, tanto incremental quanto completa. 
+Um backup diferencial é uma cópia dos dados criados e modificados desde o último backup completo.
+
+Back up and sync é um serviço de armazenamento que automaticamente salva suas fotos e videos na sua conta google.
+
+Rsync >> software de sincronizar :: é um utilitário amplamente usado para manter cópias de um arquivo em dois sistemas de computadores ao mesmo tempo. 
+É normalmente encontrado em sistemas do tipo Unix e em funções como um programa de sincronização de arquivos e transferência de arquivos.
+
+SAMBA4: O Samba 4.0 compreende um servidor de diretório LDAP, um servidor de autenticação Heimdal Kerberos, um servidor DNS dinâmico e implementações de 
+todas as chamadas de procedimento remoto necessários para o Active Directory.
+Samba é um programa de computador, utilizado em sistemas operacionais do tipo Unix, que simula um servidor Windows, permitindo que seja feito gerenciamento
+e compartilhamento de arquivos em uma rede Microsoft.
+
+Fazendo backup dos dados pessoais >> cópias de segurança >> efetuar cópia de segurança >> local do backup >> selecionar e avançar 2x >> 
+
+Deja-dup >> local de armazenamento >>
+Luckybackup >> 
