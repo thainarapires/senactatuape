@@ -13,5 +13,21 @@ Gateway: responsável por nos levar à internet, no linux se usa o comando: rout
 roteador: 10.26.45.1
 
 resolvectl (10.26.40.190): mostra todas informações de ip no windows 
-
+  
 nslookup [endereço ip] ou nome EX:(google.com)
+
+nslookup professorramos.com
+
+Configurar IP: 
+Dinâmico (dynamic): DHCP > é automático               
+
+ Estático (Static): manual
+engrenagem > ipv4 > manual > adicionar o seu endereço e a netmask
+
+sem gateway:
+  ping: connect: A rede está fora de alcance 
+com gateway: ping de endereço ip, mas não em nomes
+
+ativar dns: 
+8.8.8.8
+8.8.4.4
