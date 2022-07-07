@@ -1,3 +1,5 @@
+COMANDOS LS
+
 pwd: O comando "pwd" é usado para saber em qual diretório você está.
 ls: mostra os arquivos e diretórios do diretório atual.
 ls -l: mostra os arquivos e diretórios do diretório atual, mais os detalhes de cada um.
@@ -12,29 +14,32 @@ ls -li: mostra o valor inode dos arquivos e diretórios.
 ls -ln: monstra o UID (identificação unica) e GID (grupo de id).
 ls -lh: este comando mostra o tamanho dos arquivos em leitura humana.
 
+COMANDO CD
+
 cd ou cd~/: diretório home
    cd /: diretório raiz
    cd (nome do filho do diretório) 
       
-      Exemplo: Temos um diretório chamado "senactatuape", dentro deste diretório, temos um outro diretório chamado "aulas" e dentro dele, temos 
+      Exemplos: Temos um diretório chamado "senactatuape", dentro deste diretório, temos um outro diretório chamado "aulas" e dentro dele, temos 
       um arquivo chamado "aula2", vamos abrir ele através do terminal.
       cd /senactatuape
       cd aulas
       cat aula2
-      
    
-   93  pwd
-   94  ls
-   95  ls -lha
-   96  ls -lha
-   97  cd ~
-   98  pwd
-   99  cd -
-  100  ls 
-  101  cd home/ cd
-  102  cd ~
-  103  pwd
-  104  mdkir 
+   Para voltar para o diretório que estava antes do atual, digite: cd -
+   Para voltar ao diretório pai, digite: cd ..
+   Para ir diretamente no diretório, digite: cd senactatuape/aulas
+  
+CRIAÇÃO DE PASTAS:
+  
+  mdkir nomedapasta: cria uma pasta no diretório atual
+  rmdir nomedapasta: apaga a pasta do diretório que você quer
+  cat> nomedoarquivo: cria um arquivo e você pode escrever nele até que utilize o crtl+C
+  rm nomedoarquivo arquivo arquivo: apaga arquivos simultaneamente
+  rm -r nomedoarquivo: para apagar o diretório com arquivos e diretórios dentro.
+  
+  
+  
   105  mkdir
   106  mkdir --help
   107  mkdir tatuape
