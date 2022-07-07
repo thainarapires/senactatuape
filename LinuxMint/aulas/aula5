@@ -1,5 +1,7 @@
 COMANDOS LS
 
+"NÃO É PRA UTILIZAR OS DOIS PONTOS ':' APÓS O COMANDO".
+
 pwd: O comando "pwd" é usado para saber em qual diretório você está.
 ls: mostra os arquivos e diretórios do diretório atual.
 ls -l: mostra os arquivos e diretórios do diretório atual, mais os detalhes de cada um.
@@ -30,25 +32,25 @@ cd ou cd~/: diretório home
    Para voltar ao diretório pai, digite: cd ..
    Para ir diretamente no diretório, digite: cd senactatuape/aulas
   
-CRIAÇÃO DE PASTAS:
+CRIAÇÃO E EXCLUSÃO DE PASTAS E ARQUIVOS:
   
   mdkir nomedapasta: cria uma pasta no diretório atual
   rmdir nomedapasta: apaga a pasta do diretório que você quer
-  cat> nomedoarquivo: cria um arquivo e você pode escrever nele até que utilize o crtl+C
-  rm nomedoarquivo arquivo arquivo: apaga arquivos simultaneamente
-  rm -r nomedoarquivo: para apagar o diretório com arquivos e diretórios dentro.
+   Exemplo: você cria uma pasta chamada "teste", mas depois você se arrepende e quer apagá-la.
+   mkdir teste
+   rmdir teste
+   
+   cat> nomedoarquivo: cria um arquivo e você pode escrever nele até que utilize o crtl+C
+   rm arquivo: apaga arquivos simultaneamente, exemplo:
+      rm teste teste1 teste2: todos os arquivos serão deletados do diretório atual.
   
-  
-  
-  105  mkdir
-  106  mkdir --help
-  107  mkdir tatuape
-  108  pwd
-  109  ls
-  110  cd tatuape
-  111  mkdir -v robson vaamonde senac tatuape
-  112  ls
-  113  mkdir -v ROBSON VAAMONDE SENAC TATUAPE
+  rm -r nomedapasta: para apagar pasta não vazia.
+  rm -rf: apaga forçadamente vários diretórios vazios, não é solicitado confirmação.
+   Exemplos:
+   rm -r teste teste teste (apaga diretórios não vazios)
+   rm -rf pasta pasta pasta (sem uso da barra, apenas espaços entre os nomes das pastas)
+ 
+ 
   114  ls
   115  mkdir -v Robson Vaamonde Senac Tatuape
   116  ls
