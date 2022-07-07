@@ -1,8 +1,28 @@
-   88  pwd
-   89  ls -l
-   90  ls -lh
-   91  ls -lha
-   92  cd /
+pwd: O comando "pwd" é usado para saber em qual diretório você está.
+ls: mostra os arquivos e diretórios do diretório atual.
+ls -l: mostra os arquivos e diretórios do diretório atual, mais os detalhes de cada um.
+ls -lF: mostra os arquivos e diretórios sendo diferenciados pelo forward slash (/), quando se tem a barra é um diretório. (Usado para softwares\hardwares
+que não tem uso de cores).
+ls -lr: mostra a ordem inversa de criações do diretório.
+ls -lt: mostra os arquivos e diretórios com a ordem certa de criação/modificação.
+ls -lX: mostra pela ordem alfabética.
+ls -la: mostra arquivos escondidos.
+tree e ls-lR: mostra a árvore dos diretórios.
+ls -li: mostra o valor inode dos arquivos e diretórios.
+ls -ln: monstra o UID (identificação unica) e GID (grupo de id).
+ls -lh: este comando mostra o tamanho dos arquivos em leitura humana.
+
+cd ou cd~/: diretório home
+   cd /: diretório raiz
+   cd (nome do filho do diretório) 
+      
+      Exemplo: Temos um diretório chamado "senactatuape", dentro deste diretório, temos um outro diretório chamado "aulas" e dentro dele, temos 
+      um arquivo chamado "aula2", vamos abrir ele através do terminal.
+      cd /senactatuape
+      cd aulas
+      cat aula2
+      
+   
    93  pwd
    94  ls
    95  ls -lha
