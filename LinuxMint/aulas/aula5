@@ -50,23 +50,28 @@ CRIAÇÃO E EXCLUSÃO DE PASTAS E ARQUIVOS:
    rm -r teste teste teste (apaga diretórios não vazios)
    rm -rf pasta pasta pasta (sem uso da barra, apenas espaços entre os nomes das pastas)
  
+ COMANDO MV
  
-  114  ls
-  115  mkdir -v Robson Vaamonde Senac Tatuape
-  116  ls
-  117  mkdir Rob
-  118  ls
-  119  touch senac.txt
-  120  ls
-  121  touch robson.txt vaamonde.txt tatuape.txt
-  122  ls
-  123  ls -lha
-  124  -p
-  125  mkdir -p
-  126  mkdir tatuape -p
-  127  ls
-  128  mkdir -p tatuape
-  129  ls
+MUDANDO AS PASTAS DE LOCAL PELO TERMINAL
+ mv nomedoarquivo localdestino: = muda arquivo ou diretório de lugar
+   Exemplo: mv nomedoarquivo /home/fulano/Documentos     ou (.Documentos)
+   
+RENOMEAR NOMES DE ARQUIVOS E PASTAS
+ mv nomeatualdoarquivo nomenovodoarquivo 
+   Exemplo: mv linux novolinux
+   
+CRIANDO PASTAS COM PERMISSÕES 
+
+mkdir teste -m permissão
+   Exemplo: mkdir linux -m 777 
+      A permissão ficará: rwxrwxrwx
+
+MUDAR PERMISSÕES DE PASTAS/ARQUIVOS, COMANDO CHMOD
+
+chmod 777 nomedoarquivo
+   Exemplo: chmod 77 linux.
+      A permissão vai ficar: ---rwxrwx
+
   130  mkdir -v teste01/teste01/teste01
   131  mkdir teste01/teste01/teste01
   132  mkdir -v -p teste01/teste01
