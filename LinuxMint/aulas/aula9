@@ -1,6 +1,26 @@
 Comandos que são capaz de dar informações sobre o IP da rede local
   GNU/Linux: ifconfig
     Microsoft: ipconfig 
+    
+eth0: placa de rede
+inet end: endereço ip
+inet6: ipv6
+lo: endereço de loopback local
+broadcast: enviar pacote para todos os dispositivos conectados à rede.
+  
+  "ip link show"
+    up: indica se a interface está ativa ou não
+    lower-up: ua flag que indica se você tem cabo de rede conectado
+  
+  "ip addr show" ou "ip a"
+    scope host: só é válodo dentro da máquina
+    scope global: global :D
+    
+   sudo ip link set "rede" up | down (ativar ou desativar a interface)
+  ver estatística de comunicação de interface: ip -s link show "rede", bytes recebidos e transmitidos.
+   ip neigh: tabela ARP
+    
+    
 
 10.26.45.45 << Meu endereço IPv4
 
